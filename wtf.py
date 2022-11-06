@@ -1,3 +1,5 @@
+# Download/copy this code to learn how redudent everything is
+# and I mean EVERYTHING
 import math
 import random
 
