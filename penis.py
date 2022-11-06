@@ -1,4 +1,3 @@
-import random
 import dick
 
 num = float(input('Type the length of your penis in inches: '))
