@@ -52,7 +52,6 @@ def book3(p,v):
         else:
             return strfor.format(unavail,"NaN",1,"3" + v)
 
-
 def main():
     book = 0
     while not(book == "2" or book == "3" or book == "4"):
@@ -62,7 +61,10 @@ def main():
         elif book == "3":
             varient = input("Enter which version you'd like to read (o for original, n for new): ")
             page = int(input("Enter what page of the selected book you'd like tor read: "))
-            while page >= 1 and page <= 2:
+            larg = 1
+            if varient.lower()[0] == "o":
+                larg = 3
+            while page >= 1 and page < larg:
                 print(lines + book3(page,varient))
                 ting = input()
                 ting = ting.lower()[0]
@@ -74,7 +76,10 @@ def main():
                     break
         elif book == "2" or book == "4":
             page = int(input("Enter what page of the selected book you'd like tor read: "))
-            while page >= 1 and page <= 24:
+            larg = 2
+            if book.lower()[0] == "2":
+                larg = 25
+            while page >= 1 and page < larg:
                 print(lines + bookv(page,book))
                 ting = input()
                 ting = ting.lower()[0]
