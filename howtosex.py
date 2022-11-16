@@ -81,9 +81,9 @@ def main():
                 print(book3(page,varient))
                 ting = input()
                 page = pgd(page,ting)
+                print((PREV_LINE + LINE_CLEAR) * 15,end=LINE_CLEAR)
                 if ting.lower()[0] == "x":
                     break
-                print((PREV_LINE + LINE_CLEAR) * 15,end=LINE_CLEAR)
         elif book == "2" or book == "4":
             page = 1
             larg = 2
@@ -97,9 +97,9 @@ def main():
                 print(bookv(page,book))
                 ting = input()
                 page = pgd(page,ting)
+                print((PREV_LINE + LINE_CLEAR) * 15,end=LINE_CLEAR)
                 if ting.lower()[0] == "x":
                     break
-                print((PREV_LINE + LINE_CLEAR) * 15,end=LINE_CLEAR)
         elif book.lower()[0] == "x":
             quit()
         else:
