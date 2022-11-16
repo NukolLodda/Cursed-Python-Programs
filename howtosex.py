@@ -115,7 +115,7 @@ print("|A brilliant place of wonder and fun and a fantastic guide to having inte
 print("|Currently there are 3 available how to sex books, versions 2, 3, and 4.        |")
 print("|data for book 2 is from the 1st link and for books 3 and 4 are in the 2nd link:|")
 print("|https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books/How_to_sex_2  |")
-print("|https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books)              |")
+print("|https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books               |")
 print("|If you're done reading, press x to exit                                        |")
 print("|" + ("_" * 79),end="|\n\n")
 while __name__ == "__main__": main()
