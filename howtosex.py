@@ -68,6 +68,10 @@ def pgd(p,ting):
 
 def main():
     book = input("Enter which how to sex book you'd like to read: ")
+    b = book.lower()
+    if b == "two": book = "2"
+    elif b == "three": book = "3"
+    elif b == "four": book = "4"
     if book == "3":
         varient = input("Enter which version you'd like to read (o for original, n for new): ")
         page = 1
