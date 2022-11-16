@@ -112,7 +112,7 @@ def main():
 print("_" * 81)
 print("|Welcome to the archive of TommyInnit's How to Sex books                        |")
 print("|A brilliant place of wonder and fun and a fantastic guide to having intercourse|")
-print("|Currently there are 3 available how to sex books, books 2, 3, and 4.           |")
+print("|Currently there are 3 available How to Sex books, books 2, 3, and 4.           |")
 print("|data for the books are obtained from the link below:                           |")
 print("|https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books               |")
 print("|If you're done reading, press x to exit                                        |")
