@@ -27,7 +27,7 @@ unavail = "404: Page not found\n\n\n\n\n\n\n\n\n\n\n\n"
 pagelist = [p21,p22,p23,p24,p25,p26,p27,p28,p29,p218,p219,po31,po32]
 # Indecies   0   1   2   3   4   5   6   7   8   9   10   11   12
 lines = "-" * 24
-strfor = "{}\n----page {} of {}-v {}----"
+strfor = "{}\n----page {} of {}-b{}----"
 PREV_LINE = "\u001b[1F"
 LINE_CLEAR = '\x1b[2K'
 
@@ -112,7 +112,7 @@ def main():
 print("_" * 81)
 print("|Welcome to the archive of TommyInnit's How to Sex books                        |")
 print("|A brilliant place of wonder and fun and a fantastic guide to having intercourse|")
-print("|Currently there are 3 available how to sex books, versions 2, 3, and 4.        |")
+print("|Currently there are 3 available how to sex books, books 2, 3, and 4.           |")
 print("|data for the books are obtained from the link below:                           |")
 print("|https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books               |")
 print("|If you're done reading, press x to exit                                        |")
