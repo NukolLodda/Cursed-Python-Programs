@@ -1,3 +1,7 @@
+# Here is the links I used for the strings below
+# p21 - p219 https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books/How_to_sex_2
+# the rest of the strings - https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books
+
 p21 = "How to Sex\n\nBabies be like: Yo I\ncame out of the\nverjina.\n\nHey this is How to Sex\n2. Tommyinnits novel.\nhow to Sex 1 is so\nvery unavailable.\n\n\n"
 p22 = "Chapter 1: How to Sex\n\nYou like Sex? Yeah. Me\nneither. But lets read\nthis book so we can\nstop the sinners.\n\nDO NOT HAVE SEX WITH\nTERRORISTS!\n\n\n\n"
 p23 = "Chapter 1: The tutorial\n\nSo. you need to know\nhow to get a fuckin\nkid. You like kids? That\ns very bad if so\n\n\n\n\n\n\n"
