@@ -66,11 +66,7 @@ def pgd(p,ting):
     return p
 
 def main():
-    book = 0
-    while not(book == "2" or book == "3" or book == "4"):
-        book = input("Enter which how to sex book you'd like to read: ")
-        if book == "1":
-            print("This book is currently unavailable at the moment\nPlease check in at a different time\n")
+    book = input("Enter which how to sex book you'd like to read: ")
     if book == "3":
         varient = input("Enter which version you'd like to read (o for original, n for new): ")
         page = 1
@@ -105,12 +101,16 @@ def main():
             if ting.lower()[0] == "x":
                 break
     elif book.lower()[0] == "x":
-        quit()
-    else:
-        print("The version for the How to Sex book currently\ndoes not exist\nPlease check in at a different time\n")
+        exit()
+    while not(book == "2" or book == "3" or book == "4"):
+        book = input("Enter which how to sex book you'd like to read: ")
+        if book == "1":
+            print("This book is currently unavailable at the moment\nPlease check in at a different time\n")
     print((PREV_LINE + LINE_CLEAR) * (3 + num),end=LINE_CLEAR)
-        print((PREV_LINE + LINE_CLEAR) * (3 + num),end=LINE_CLEAR)
 
 print("Welcome to the archive of TommyInnit's How to Sex books\nA brilliant archive of wonder and fun and a\nfantastic guide to having intercourse")
-print("Currently there are 3 available how to sex books,\nversions 2, 3, and 4.\nIf you're done reading, press x to exit\n")
+print("Currently there are 3 available how to sex books,\nversions 2, 3, and 4.")
+print("|data for version 2 is retrived here - https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books/How_to_sex_2s|")
+print("|data for versions 3 and 4 are retrived here - https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books)     |")
+print("If you're done reading, press x to exit\n")
 while __name__ == "__main__": main()
