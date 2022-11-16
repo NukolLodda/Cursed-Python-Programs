@@ -1,3 +1,4 @@
+import time
 # Here is the links I used for the strings below
 # p21 - p219 https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books/How_to_sex_2
 # the rest of the strings - https://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books
@@ -104,7 +105,8 @@ def main():
         quit()
     else:
         print("This book is currently unavailabe/does not exist\nThe program will be updated as soon as the data is out\n")
-        book = input("Enter which how to sex book you'd like to read: ")
+        num = 1
+        time.sleep(3)
     print((PREV_LINE + LINE_CLEAR) * (3 + num),end=LINE_CLEAR)
 
 print("Welcome to the archive of TommyInnit's How to Sex books\nA brilliant archive of wonder and fun and a\nfantastic guide to having intercourse")
