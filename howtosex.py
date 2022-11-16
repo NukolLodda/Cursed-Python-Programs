@@ -72,7 +72,7 @@ def main():
     if b == "two": book = "2"
     elif b == "three": book = "3"
     elif b == "four": book = "4"
-    if book == "3":
+    if book[0] == "3":
         varient = input("Enter which version you'd like to read (o for original, n for new): ")
         page = 1
         larg = 2
@@ -89,7 +89,7 @@ def main():
             print((PREV_LINE + LINE_CLEAR) * 15,end=LINE_CLEAR)
             if ting.lower()[0] == "x":
                 break
-    elif book == "2" or book == "4":
+    elif book[0] == "2" or book[0] == "4":
         page = 1
         larg = 2
         num = 0
