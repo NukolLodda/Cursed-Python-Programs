@@ -101,11 +101,10 @@ def main():
             if ting.lower()[0] == "x":
                 break
     elif book.lower()[0] == "x":
-        exit()
-    while not(book == "2" or book == "3" or book == "4"):
+        quit()
+    else:
+        print("This book is currently unavailabe/does not exist\nThe program will be updated as soon as the data is out\n")
         book = input("Enter which how to sex book you'd like to read: ")
-        if book == "1":
-            print("This book is currently unavailable at the moment\nPlease check in at a different time\n")
     print((PREV_LINE + LINE_CLEAR) * (3 + num),end=LINE_CLEAR)
 
 print("Welcome to the archive of TommyInnit's How to Sex books\nA brilliant archive of wonder and fun and a\nfantastic guide to having intercourse")
