@@ -34,15 +34,15 @@ LINE_CLEAR = '\x1b[2K'
 def bookv(p,v):
     if v == "2":
         if p < 10:
-            return strfor.format(pagelist[p-1],p,24,2)
+            return strfor.format(pagelist[p-1],p,24,"2-")
         elif p == 12:
-            return strfor.format(p212,p,24,2)
+            return strfor.format(p212,p,24,"2-")
         elif p < 20 and p > 17:
-            return strfor.format(pagelist[p-9],p,24,2)
+            return strfor.format(pagelist[p-9],p,24,"2-")
         else:
-            return strfor.format(unavail,p,24,2)
+            return strfor.format(unavail,p,24,"2-")
     elif v == "4":
-        return strfor.format(p41,p,1,4)
+        return strfor.format(p41,p,1,"4-")
 
 def book3(p,v):
     if v.lower()[0] == "o":
