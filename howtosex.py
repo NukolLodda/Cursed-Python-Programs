@@ -67,43 +67,44 @@ def main():
         book = input("Enter which how to sex book you'd like to read: ")
         if book == "1":
             print("This book is currently unavailable at the moment\nPlease check in at a different time\n")
-        elif book == "3":
-            varient = input("Enter which version you'd like to read (o for original, n for new): ")
-            page = 1
-            larg = 2
-            num = 1
-            if varient.lower()[0] == "o":
-                page = int(input("Enter what page of the selected book you'd like tor read: "))
-                larg = 3
-                num += 1
-            print("\n" + lines)
-            while page > 0 and page < larg:
-                print(book3(page,varient))
-                ting = input()
-                page = pgd(page,ting)
-                print((PREV_LINE + LINE_CLEAR) * 15,end=LINE_CLEAR)
-                if ting.lower()[0] == "x":
-                    break
-        elif book == "2" or book == "4":
-            page = 1
-            larg = 2
-            num = 0
-            if book.lower()[0] == "2":
-                page = int(input("Enter what page of the selected book you'd like tor read: "))
-                larg = 25
-                num += 1
-            print("\n" + lines)
-            while page > 0 and page < larg:
-                print(bookv(page,book))
-                ting = input()
-                page = pgd(page,ting)
-                print((PREV_LINE + LINE_CLEAR) * 15,end=LINE_CLEAR)
-                if ting.lower()[0] == "x":
-                    break
-        elif book.lower()[0] == "x":
-            quit()
-        else:
-            print("The version for the How to Sex book currently\ndoes not exist\nPlease check in at a different time\n")
+    if book == "3":
+        varient = input("Enter which version you'd like to read (o for original, n for new): ")
+        page = 1
+        larg = 2
+        num = 1
+        if varient.lower()[0] == "o":
+            page = int(input("Enter what page of the selected book you'd like tor read: "))
+            larg = 3
+            num += 1
+        print("\n" + lines)
+        while page > 0 and page < larg:
+            print(book3(page,varient))
+            ting = input()
+            page = pgd(page,ting)
+            print((PREV_LINE + LINE_CLEAR) * 15,end=LINE_CLEAR)
+            if ting.lower()[0] == "x":
+                break
+    elif book == "2" or book == "4":
+        page = 1
+        larg = 2
+        num = 0
+        if book.lower()[0] == "2":
+            page = int(input("Enter what page of the selected book you'd like tor read: "))
+            larg = 25
+            num += 1
+        print("\n" + lines)
+        while page > 0 and page < larg:
+            print(bookv(page,book))
+            ting = input()
+            page = pgd(page,ting)
+            print((PREV_LINE + LINE_CLEAR) * 15,end=LINE_CLEAR)
+            if ting.lower()[0] == "x":
+                break
+    elif book.lower()[0] == "x":
+        quit()
+    else:
+        print("The version for the How to Sex book currently\ndoes not exist\nPlease check in at a different time\n")
+    print((PREV_LINE + LINE_CLEAR) * (3 + num),end=LINE_CLEAR)
         print((PREV_LINE + LINE_CLEAR) * (3 + num),end=LINE_CLEAR)
 
 print("Welcome to the archive of TommyInnit's How to Sex books\nA brilliant archive of wonder and fun and a\nfantastic guide to having intercourse")
