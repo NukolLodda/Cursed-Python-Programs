@@ -67,7 +67,7 @@ def pgd(p,ting):
     return p
 
 def main():
-    book = input("Enter which how to sex book you'd like to read: ")
+    book = input("Enter which How to Sex book you'd like to read: ")
     b = book.lower()
     if b == "two": book = "2"
     elif b == "three": book = "3"
