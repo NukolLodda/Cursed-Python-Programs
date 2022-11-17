@@ -5,7 +5,7 @@ import time
 
 p21 = "How to Sex\n\nBabies be like: Yo I\ncame out of the\nverjina.\n\nHey this is How to Sex\n2. Tommyinnits novel.\nhow to Sex 1 is so\nvery unavailable.\n\n\n"
 p22 = "Chapter 1: How to Sex\n\nYou like Sex? Yeah. Me\nneither. But lets read\nthis book so we can\nstop the sinners.\n\nDO NOT HAVE SEX WITH\nTERRORISTS!\n\n\n\n"
-p23 = "Chapter 1: The tutorial\n\nSo. you need to know\nhow to get a fuckin\nkid. You like kids? That\ns very bad if so\n\n\n\n\n\n\n"
+p23 = "Chapter 1: The tutorial\n\nSo. you need to know\nhow to get a fuckin\nkid. You like kids?\nThat is very bad\nif so\n\n\n\n\n\n"
 p24 = "Chapter 1: The tutorial\n\nAt first you need a\nfriend. If you have\none: Well done. The\nfriend will, when all\nshriveled, SWITCH UP\nON YO. That's when\nyou're in cho prime.\nThat's when yo make\nyou move\n\n"
 p25 = "Chapter 2: Speaking\nto Girls and women\n\ngirls and women are\nbeautifl\n\nIf you want to speak\nto one, offer to buy\nthem a handbag. Then\nthey have sex with you\n\n\n"
 p26 = "Chapter 3: Having Sex\nDO NOT GO \"MMMMMM\".\nIT PUTS THEM OFF.\n\nsex is really\nscientific and when\nyouve having sex\nmakes notes.\n\n\n\n\n"
