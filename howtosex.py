@@ -115,12 +115,11 @@ def main():
         num = 1
         time.sleep(3)
     print((PREV_LINE + LINE_CLEAR) * (3 + num),end=LINE_CLEAR)
-
-print("Welcome to the archive of TommyInnit's How to Sex books.                        |")
-print("A brilliant place of wonder and fun and a fantastic guide to having intercourse.|")
-print("Currently, there are 3 available How to Sex books: books 2, 3, and 4.           |")
-print("data for the books are obtained from the link below:                            |")
-print("\u001b[36;1mhttps://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books \u001b[0m               |")
-print("If you're done reading, press x to exit.                                        |")
+print("Welcome to the archive of TommyInnit's How to Sex books.                        | Guide to page turning:        |")
+print("A brilliant place of wonder and fun and a fantastic guide to having intercourse.| < or l for the previous page  |")
+print("Currently, there are 3 available How to Sex books: books 2, 3, and 4.           | > or r for the next page      |")
+print("data for the books are obtained from the link below:                            | If you enter any number within|")
+print("\u001b[36;1mhttps://dreamteam.fandom.com/wiki/Dream_SMP_books/Non-lore_books \u001b[0m               | range, it will go there.      |")
+print("If you're done reading, press x to exit.                                        |-------------------------------|")
 print("_" * 80,end="|\n\n")
 while __name__ == "__main__": main()
