@@ -27,31 +27,31 @@ unavail = "404: Page not found\n\n\n\n\n\n\n\n\n\n\n\n"
 pagelist = [p21,p22,p23,p24,p25,p26,p27,p28,p29,p218,p219,po31,po32]
 # Indecies   0   1   2   3   4   5   6   7   8   9   10   11   12
 lines = "-" * 24
-strfor = "{}\n----page {} of {}-b{}--"
+strfor = "{}\n----page {} of {}-b{}---"
 PREV_LINE = "\u001b[1F"
 LINE_CLEAR = '\x1b[2K'
 
 def bookv(p,v):
-    page = str(p)
-    if len(page) == 1:
-        page += " "
+    line = ""
+    if len(str(p)) == 1:
+        line = "-"
     if v == "2":
         if p < 10:
-            return strfor.format(pagelist[p-1],page,24,"2-")
+            return strfor.format(pagelist[p-1],p,24,"2-",line)
         elif p == 12:
-            return strfor.format(p212,page,24,"2-")
+            return strfor.format(p212,p,24,"2-",line)
         elif p < 20 and p > 17:
-            return strfor.format(pagelist[p-9],p,24,"2-")
+            return strfor.format(pagelist[p-9],p,24,"2-",line)
         else:
-            return strfor.format(unavail,page,24,"2-")
+            return strfor.format(unavail,p,24,"2-",line)
     elif v == "4":
-        return strfor.format(p41,p,1,"4-")
+        return strfor.format(p41,p,1,"4-",line)
 
 def book3(p,v):
     if v.lower()[0] == "o":
-        return strfor.format(pagelist[p+10],p,2,"3" + v)
+        return strfor.format(pagelist[p+10],p,2,"3" + v,"-")
     else:
-        return strfor.format(pn31,p,1,"3" + v)
+        return strfor.format(pn31,p,1,"3" + v,"-")
 
 def pgd(p,ting):
     nting = ting.lower()[0]
