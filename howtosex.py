@@ -21,7 +21,7 @@ po32 = "Sex is like God sex is\nlike God but God is\n\n\n\n\n\n\n\n\n\n\n"
 # How to sex 3 [Original] has a total of 2 pages
 pn31 = "How to sex 3:\nChapter 1:\nUnderstanding Men.\n\nWhy are they?\n\n\n\n\n\n\n\n"
 # How to sex 3 [New] has a total of 1 page
-p41 = "How to Sex 4:\nJust pop it in and pray\nDream hot\n\n\n\n\n\n\n\n\n\n"
+p41 = "How to Sex 4:\n\nJust pop it in and pray\n\nDream hot\n\n\n\n\n\n\n\n"
 # How to sex 4 has a total of 1 page
 unavail = "404: Page not found\n\n\n\n\n\n\n\n\n\n\n\n"
 pagelist = [p21,p22,p23,p24,p25,p26,p27,p28,p29,p218,p219,po31,po32]
