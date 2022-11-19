@@ -49,9 +49,9 @@ def bookv(p,v):
 
 def book3(p,v):
     if v.lower()[0] == "o":
-        return strfor.format(pagelist[p+10],p,2,"3" + v,"-")
+        return strfor.format(pagelist[p+10],p,2,"3" + v[0],"-")
     else:
-        return strfor.format(pn31,p,1,"3" + v,"-")
+        return strfor.format(pn31,p,1,"3" + v[0],"-")
 
 def pgd(p,ting):
     nting = ting.lower()[0]
